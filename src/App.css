@@ -1,0 +1,112 @@
+/* styles.css */
+
+.booking-form {
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+.booking-form label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.booking-form input[type="text"],
+.booking-form input[type="email"],
+.booking-form input[type="tel"],
+.booking-form select,
+.booking-form input[type="date"] {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+.booking-form input[type="submit"] {
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.booking-form input[type="submit"]:hover {
+	background-color: #0056b3;
+}
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #f8f9fa;
+	padding: 20px;
+	text-align: center;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline;
+	margin-right: 20px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+}
+
+nav ul li a:hover {
+	color: #007bff;
+}
+
+main {
+	padding: 20px;
+	text-align: center;
+}
+
+form {
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+input[type="date"] {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+input[type="submit"] {
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+	background-color: #0056b3;
+}
